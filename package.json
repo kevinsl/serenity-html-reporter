@@ -1,0 +1,12 @@
+{
+    "name": "serenity-html-reporter",
+    "main": "index.js",
+    "scripts": {
+        "pretest": "serenity update",
+        "report": "serenity run --source source/ --destination dest/"
+    },
+    "devDependencies": {
+        "serenity-cli": "^0.2.3",
+        "serenity-js": "^1.0.0"
+    }
+}
